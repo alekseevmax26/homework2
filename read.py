@@ -15,7 +15,6 @@ with open('../files/users.json', 'r') as users_file_json:
             }
         )
 
-
 with open("../files/books.csv", "r") as books_file_csv:
     books_json = csv.DictReader(books_file_csv)
     result_books = []
