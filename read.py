@@ -42,6 +42,6 @@ def add_books(users, books):
     return users
 
 
-with open('../files/result.json', 'w') as result:
+with open('../files/results.json', 'w') as result:
     json_dumps = json.dumps(add_books(users=result_users, books=result_books), indent=4)
     result.write(json_dumps)
