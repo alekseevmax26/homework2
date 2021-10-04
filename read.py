@@ -1,6 +1,7 @@
 import json
 import csv
 
+
 with open('../files/users.json', 'r') as users_file_json:
     users_json = json.load(users_file_json)
     result_users = []
